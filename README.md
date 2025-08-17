@@ -1,9 +1,33 @@
-# three-body-simulation
+# Three-Body Problem Simulation 🌌
 
-### Introduction
-The 3-body problem is a classical problem in classical mechanics which involves describing he motion of three large celestial bodies interacting with one another under the influence of gravity.
+### 🚀 Overview
 
-The goal is to predict future positions/velocities of three bodies given their initial states.
+This project is a Python-based simulation of the **three-body problem**. Using numerical methods, it predicts and visualizes the motion of three celestial bodies under their mutual gravitational attraction.
+
+Scroll down to the process notes for math/physics portion of the model.
+
+### ✨ Key Features
+
+*   **Numerical Simulation:** Implements a robust numerical solver (`scipy.integrate.solve_ivp`) to solve the system of differential equations governing the bodies' motion.
+*   **3D Visualization:** Uses `matplotlib` to create an interactive 3D plot of the bodies' trajectories, making the complex motion easy to visualize.
+*   **Object-Oriented Design:** The code is structured to be easily extendable to an n-body simulation.
+
+### 🏃‍♀️ How to Run
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/jerrychen751/three-body-simulation.git
+    ```
+2.  **Install the dependencies:**
+    ```bash
+    pip install numpy pandas matplotlib scipy
+    ```
+3.  **Run the Jupyter Notebook:**
+    ```bash
+    jupyter notebook main.ipynb
+    ```
+
+---
 
 ### Assumptions/Simplifications
 - Planetary bodies are in an isolated system (no other forces acting on them other than gravitational forces among themselves).
