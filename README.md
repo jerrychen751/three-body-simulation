@@ -1,5 +1,9 @@
 # three-body-simulation
-Python project simulating the 3-body problem in physics.
+
+### Introduction
+The 3-body problem is a classical problem in classical mechanics which involves describing he motion of three large celestial bodies interacting with one another under the influence of gravity.
+
+The goal is to predict future positions/velocities of three bodies given their initial states.
 
 ### Assumptions/Simplifications
 - Planetary bodies are in an isolated system (no other forces acting on them other than gravitational forces among themselves).
