@@ -1,9 +1,10 @@
 # three-body-simulation
 Python project simulating the 3-body problem in physics.
 
-### Starting Assumptions
+### Assumptions/Simplifications
 - Planetary bodies are in an isolated system (no other forces acting on them other than gravitational forces among themselves).
-- 
+- Planetary bodies are point masses (avoid dealing with collisions).
+- The force between two bodies is described by Newton's law of universal gravitation.
 
 ### Process
 1. Using Newton's Laws of Motion and the Law of Universal Gravitation, derive a set of differential equations governing the motion of each planetary body.
