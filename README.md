@@ -79,4 +79,8 @@ By converting the set of 3 second-order ODEs into 6 first-order ODEs, Python's n
 \end{aligned}
 ```
 
-Now, it becomes an initial value problem. The position of any planetary body can be computed at any time given their initial positions and velocities.
+Now, it becomes an initial value problem. The position of any planetary body can be computed at any time given their initial positions and velocities. After finding $p'$, $v'$, and $t'$, multiplying back by the chosen characteristic variable values gives the actual values in units of meters, kg, and seconds.
+
+4. Numerically solve the initial value problem and plot.
+
+Currently working on animation/sliders and moving to a more robust implementation for n-bodies.
